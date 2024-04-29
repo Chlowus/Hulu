@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/Images/original.jpg');
+    background-size: cover;
+    font-family: graphik, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    padding: 40px;
+}
+
+.login {
+    color: #A8AFBD ;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.disney-info {
+    color: white;
+    display: grid;
+    text-transform: uppercase;
+    font-size: 12px;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+}
+
+.package{
+    font-size: 12px ;
+    font-family: graphik, sans-serif;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-duo {
+    margin-left: auto;
+    padding: 0 0 0 100px;
+}
+
+.info-trio {
+    margin-right: auto;
+    padding: 0 100px 0 10px;
+}
+
+.info h3 {
+    color: #1CE783;
+}
+
+.img-duo {
+    width: 161.4px;
+    height: 50.83px;
+}
+
+.img-trio {
+    width: 242.1px;
+    height: 47.7px;
+}
+
+.price {
+    text-transform: none;
+    font-size: 24px;
+}
+
+.bttn-duo {
+    width: 320px;
+    height: 40px;
+    border: 4px solid transparent;
+    border-radius: 4px;
+    background-color: #1CE783;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight:800;
+  
+}
+
+.bttn-trio {
+    width: 320px;
+    height: 40px;
+    border: 4px solid transparent;
+    border-radius: 4px;
+    background-color: #1CE783;
+    font-size: 14px;
+    
+    font-weight: 800;
+    margin-top: 3.5px;
+}
